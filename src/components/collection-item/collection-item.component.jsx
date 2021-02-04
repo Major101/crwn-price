@@ -8,7 +8,9 @@ const CollectionItem = ({imageUrl, name, price}) => {
             backgroundImage: `url(${imageUrl})`
         }}/>
         <div className='collection-footer'>
+
             <span className='name'>{name.toUpperCase()}</span>
+
             <span className='price'>{price}</span>
         </div>
     </div>
